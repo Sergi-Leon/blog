@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 html{
     font-size: 16px;
 }
@@ -9,6 +11,7 @@ p{
 
 h1{
     font-size: 3rem;
+    margin: 0;
 }
 
 h3{
@@ -18,6 +21,7 @@ h3{
 /* clases predefinidas */
 * {
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 body{
     margin: 0;
@@ -61,8 +65,55 @@ body{
 }
 
 /* Otras clases */
+header {
+    height: 100vh;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-@media only screen and (max-width: 600px) {
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-1 {
+    background-image: url("../img/foto2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+#card-2 {
+    background-image: url("../img/foto3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+#card-3 {
+    background-image: url("../img/foto4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+#card-4 {
+    background-image: url("../img/foto5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.padding-s {
+    padding: 1%;
+}
+/* img {
+    width: 100%;
+} */
+
+@media only screen and (max-width: 800px) {
 /*reglas*/
     /* column-3 pasará de tener 33.33% a 100% */
     .column-3{
