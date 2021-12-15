@@ -109,6 +109,13 @@ header {
 .padding-s {
     padding: 1%;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
 /* img {
     width: 100%;
 } */
@@ -123,7 +130,8 @@ header {
     .column-4{
         width: 50%;
     }
-    #caja-10{
-        width: 100%;
+
+    #card-1,#card-2,#card-3,#card-4 {
+        height: 30vh;
     }
 }
